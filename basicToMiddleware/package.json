@@ -1,0 +1,21 @@
+{
+  "name": "basictomiddleware",
+  "version": "1.0.0",
+  "description": "practicing from basic to middleware in node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "express",
+    "js"
+  ],
+  "author": "sudhanshu kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}

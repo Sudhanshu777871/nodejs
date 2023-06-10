@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+  </head>
+  <body>
+    <h1>This is index page <%= details.name %></h1>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa rem
+      voluptatum modi deserunt, ea minus ipsum voluptates quibusdam facere quis
+      beatae tempore dolor amet ipsam commodi voluptate! Incidunt sint, tempore
+      aliquam excepturi, iusto nobis autem accusantium dolore quo delectus
+      harum. Neque, in! Pariatur doloribus maxime quam libero, repellat
+      accusamus ea temporibus distinctio nobis et hic dolorum nulla inventore
+      non ex ullam veniam voluptas, ipsam ab. Aspernatur dolore, quae sed
+      accusantium atque distinctio veniam asperiores nulla similique deleniti,
+      velit adipisci fugit! Totam fugiat minima fuga, animi similique sint magni
+      eligendi ea asperiores qui porro accusantium ipsam dicta possimus earum
+      illum consequatur?
+    </p>
+    <ul>
+      <% details.subject.forEach((items)=>{%>
+      <li><%=items %></li>
+      <%})%>
+    </ul>
+  </body>
+</html>
